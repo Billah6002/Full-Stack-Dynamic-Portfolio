@@ -41,21 +41,21 @@
 </head>
 <body>
     <nav >
-        <div class="flex align">
-            <div class="flex center"><img src="{{asset('assets/images/Capture.PNG')}}" alt="" style="height:50px"></div>
-            <div class = "flex center">
-                <h3><a href="#">Home</a></h3>
-                <h3><a href="#">Expertise</a></h3>
-                <h3><a href="#">Work</a></h3>
-                <h3><a href="#">Experience</a></h3>
-                <h3><a href="#">Contact</a></h3>
+        <div class="flex">
+            <div class="flex center"><img id = "avatar" src="{{asset('assets/images/Capture.PNG')}}" alt="" style="height:50px"></div>
+            <div class = "flex center nav-links space_between">
+                <a href="#">Home</a>
+                <a href="#">Expertise</a>
+                <a href="#">Work</a>
+                <a href="#">Experience</a>
+                <a href="#">Contact</a>
             </div>
         </div>
     </nav>
 
     <!-- dash -->
     <section>
-        <h1>MD Masum Billah</h1>
+        <h1 id="name" class="title">MD Masum Billah</h1>
         <h3>Software Engineer, Front end & App Developer.</h3>
         <div>
             Icons
@@ -65,7 +65,7 @@
     <!-- my Expertise -->
     <section>
         <div>
-            <h1>My Expertise</h1>
+            <h1 class="title">My Expertise</h1>
             <div>
                 <div>Icon</div>
                 <h2>Software Development</h2>
@@ -85,5 +85,6 @@
             </div>
         </div>
     </section>
+    <script src="{{asset('assets/js/script.js')}}"></script>
 </body>
 </html>
