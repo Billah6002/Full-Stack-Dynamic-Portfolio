@@ -1,90 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="../css/app.css"> -->
+@extends('index')
+@push('style')
+    <title>Portfolio</title>
+@endpush
+@section("main-content")
 
-    <style>
-        body{
-            padding:0;
-            margin:0;
-            padding-left:5%; 
-            padding-right: 5%;
-        }
-        .flex{
-            display: flex;
-        }
-        .center{
-            justify-content: center;
-            flex-wrap: wrap;
-            align-items: center;
-            width: 100%;
-        }
-        .space_between{
-            display: flex;
-            justify-content: space-between;
-        }
-        .align{
-            flex-wrap: wrap;
-            align-content : center;
-        }
-        .flex h3{
-            padding: 10px;
-        }
-        a{
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <nav >
-        <div class="flex">
-            <div class="flex center"><img id = "avatar" src="{{asset('assets/images/Capture.PNG')}}" alt="" style="height:50px"></div>
-            <div class = "flex center nav-links space_between">
-                <a href="#">Home</a>
-                <a href="#">Expertise</a>
-                <a href="#">Work</a>
-                <a href="#">Experience</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
+  <header>
+    <h1>Masum Billah</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
 
-    <!-- dash -->
-    <section>
-        <h1 id="name" class="title">MD Masum Billah</h1>
-        <h3>Software Engineer, Front end & App Developer.</h3>
-        <div>
-            Icons
-        </div>
-    </section>
+  <section class="hero">
+    <h2>Hi, I'm Masum Billah</h2>
+    <p>A passionate web developer and designer who builds modern, responsive websites and web apps.</p>
+    <a href="#projects">View My Work</a>
+  </section>
 
-    <!-- my Expertise -->
-    <section>
-        <div>
-            <h1 class="title">My Expertise</h1>
-            <div>
-                <div>Icon</div>
-                <h2>Software Development</h2>
-            </div>
-            <div>
-                Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.
-            </div>
-        </div>
-        <div>
-            <h1>My Expertise</h1>
-            <div>
-                <div>Icon</div>
-                <h2>Software Development</h2>
-            </div>
-            <div>
-                Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.
-            </div>
-        </div>
-    </section>
-    <script src="{{asset('assets/js/script.js')}}"></script>
-</body>
-</html>
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I'm a front-end developer with a focus on clean design and user-friendly experiences. With a background in HTML, CSS, JavaScript, and frameworks like React, I create modern solutions that are both functional and visually appealing.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>My personal portfolio built with HTML, CSS, and JavaScript. Fully responsive and minimal.</p>
+      </div>
+      <div class="project-card">
+        <h3>Weather App</h3>
+        <p>A weather forecast app using OpenWeatherMap API, with dynamic UI and location-based features.</p>
+      </div>
+      <div class="project-card">
+        <h3>Task Manager</h3>
+        <p>React-based task management app with local storage support and sleek user interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to work together or just say hi, feel free to email me at <a href="mailto:masum@example.com">masum@example.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Masum Billah. All rights reserved.
+  </footer>
+@endsection

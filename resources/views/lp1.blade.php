@@ -27,13 +27,6 @@
         
     </div>
 
-    <script>
-        document.getElementById("cardid").addEventListener("click", function (params) {
-            // alert(params.target.innerHTML);
-            // console.log(params.target);
-            console.log("HELLO");
-            document.getElementById("nxt").innerHTML = params.target.innerHTML;
-        });
-    </script>
+   
 </body>
 </html>
