@@ -77,13 +77,13 @@
         }
 
         section {
-        padding: 60px 40px;
+        padding: 30px 40px;
         max-width: 1000px;
         margin: auto;
         }
 
         .about, .projects, .contact {
-        margin-top: 40px;
+        margin-top: 20px;
         }
 
         .projects-grid {

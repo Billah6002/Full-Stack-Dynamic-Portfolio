@@ -21,29 +21,22 @@
     <a href="#projects">View My Work</a>
   </section>
 
-  <br>
-  <section id="expertises">
-    <h2>My Experise</h1>
-      <div class = "d-flex flex-row justify-content-evenly">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Software Development</h5>
-            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Software Development</h5>
-            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
-            <h5 class="card-title">Software Development</h5>
-            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
-          </div>
-        </div>
+  <section id="my-expertise" class="projects">
+    <h2>My Experise</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Software Development</h3>
+        <p>Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>
       </div>
+      <div class="project-card">
+        <h3>Software Development</h3>
+        <p>Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Software Development</h3>
+        <p>Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>
+      </div>
+    </div>
   </section>
 
   <section id="about" class="about">
