@@ -7,9 +7,10 @@
   <header>
     <h1>Masum Billah</h1>
     <nav>
-      <a href="#about">About</a>
       <a href="#projects">Projects</a>
+      <a href="#expertises">My Expertises</a>
       <a href="#contact">Contact</a>
+      <a href="#about">About</a>
     </nav>
   </header>
 
@@ -17,6 +18,31 @@
     <h2>Hi, I'm Masum Billah</h2>
     <p>A passionate web developer and designer who builds modern, responsive websites and web apps.</p>
     <a href="#projects">View My Work</a>
+  </section>
+
+  <br>
+  <section>
+    <h2>My Experise</h1>
+      <div id="expertises" class = "d-flex flex-row justify-content-evenly">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Software Development</h5>
+            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Software Development</h5>
+            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Software Development</h5>
+            <p class="card-text">Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScript.</p>      
+          </div>
+        </div>
+      </div>
   </section>
 
   <section id="about" class="about">
