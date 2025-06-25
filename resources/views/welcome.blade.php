@@ -9,6 +9,7 @@
     <nav>
       <a href="#projects">Projects</a>
       <a href="#expertises">My Expertises</a>
+      <a href="#my-work">My Work</a>
       <a href="#contact">Contact</a>
       <a href="#about">About</a>
     </nav>
@@ -21,9 +22,9 @@
   </section>
 
   <br>
-  <section>
+  <section id="expertises">
     <h2>My Experise</h1>
-      <div id="expertises" class = "d-flex flex-row justify-content-evenly">
+      <div class = "d-flex flex-row justify-content-evenly">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Software Development</h5>
@@ -67,6 +68,8 @@
       </div>
     </div>
   </section>
+
+  @include('mywork')
 
   <section id="contact" class="contact">
     <h2>Contact</h2>

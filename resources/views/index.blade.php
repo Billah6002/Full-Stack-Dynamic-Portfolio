@@ -107,6 +107,11 @@
         color: #888;
         margin-top: 40px;
         }
+        .max-width-p-tag {
+        max-width: 90%;
+        word-wrap: break-word;
+        }
+
     </style>
 </head>
 
