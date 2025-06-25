@@ -63,6 +63,7 @@
   </section>
 
   @include('mywork')
+  @include('parts.filter')
 
   <section id="contact" class="contact">
     <h2>Contact</h2>
